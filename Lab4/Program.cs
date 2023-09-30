@@ -52,7 +52,7 @@ class Program
         string s = class1.get_par_1();
         Internal_class class3 = new Internal_class();
         Console.WriteLine(s);
-        Myclass class2 = new Myclass(2222);
+        Myclass class2 = new Myclass(22);
         Console.ReadLine();
     }
 
