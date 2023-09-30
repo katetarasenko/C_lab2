@@ -33,7 +33,14 @@ using System.Threading.Tasks;
 }
 class Program
 {
-
+    class Internal_class
+    {
+        public Internal_class()
+        {
+            Console.WriteLine("Hello this is internal class");
+        }
+   
+    }
  
     static void Main()
     {
@@ -42,6 +49,7 @@ class Program
         class1.external_par_1 = "hi";
         class1.change_int_par_1("NEW VALUE");
         string s = class1.get_par_1();
+        Internal_class class3 = new Internal_class();
         Console.WriteLine(s);
         Myclass class2 = new Myclass(2);
         Console.ReadLine();
